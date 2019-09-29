@@ -1,3 +1,5 @@
 # OpenRTB
 
-A description of this package.
+This package provides `Codable`  objects for the IAB OpenRTB specification.
+
+Currently only OpenRTB 2.5 is supported.
