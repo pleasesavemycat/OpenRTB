@@ -110,13 +110,13 @@ extension OpenRTB2 {
     /// - Note: Conforms to OpenRTB 2.5 specification 5.14
     public enum CompanionType: Int, Codable {
         /// Static Resource
-        case staticResource
+        case staticResource = 1
         
         /// HTML Resource
-        case htmlResource
+        case htmlResource = 2
         
         /// iframe Resource
-        case iframeResource
+        case iframeResource = 3
     }
     
     /// The following enumeration lists the various options for the delivery of video or audio content.
